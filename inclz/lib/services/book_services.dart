@@ -13,7 +13,7 @@ class Book {
     required this.dateAdded,
   });
 
-  // Convert a Book object to a Firestore Map
+  // Convert a Book object to a F irestore Map
   Map<String, dynamic> toMap() {
     return {
       'id': id,
